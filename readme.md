@@ -17,11 +17,11 @@ Discord Digest is a Python bot that summarizes your Discord server's conversatio
    ```cmd
    git clone https://github.com/Tushar365/discord_digest.git
    cd discord_digest
-# Create virtual environment :
+2. **Create virtual environment :**
 ```python -m venv venv
-On mac/linux: 
+**On mac/linux:**
 ```source venv/bin/activate
-On Windows:
+**On Windows:**
 ```venv\Scripts\activate
 
 # Install dependencies :
