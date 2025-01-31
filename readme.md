@@ -25,39 +25,27 @@ EMAIL_TO=recipient_email
    ```cmd
    git clone https://github.com/Tushar365/discord_digest.git
    cd discord_digest
-   
+    ```
 2. **Create virtual environment :**
 ```
 python -m venv venv
 ```
-
 **On mac/linux:**
 ```
 source venv/bin/activate
 ```
-
 **On Windows:**
 ```
 venv\Scripts\activate
 ```
-
 # Install dependencies :
 ```
 pip install -r requirements.txt
 ```
-
 # start the bot and initiate database :
 ```
 python discord_bot.py
 ```
-
-# start the control pannel server to use UI:
-```
-streamlit run app.py
-```
-
-or 
-
 # start the timer shedule manually :
 set the timer and zone manually :
 scheduler.py (change the code)
@@ -65,10 +53,13 @@ then run :
 ```
 python scheduler.py
 ```
-
 # check next sheduled mail time :
 ```
 python scheduler.py --preview
+```
+# start the control pannel server to use UI:
+```
+streamlit run app.py
 ```
 
 
