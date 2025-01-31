@@ -1,0 +1,5 @@
+.disenv
+.env
+.venv
+messages.db
+__pycache__
