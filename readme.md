@@ -1,6 +1,6 @@
 # Clone repository (use cmd):
-git clone <your-repo-url>
-cd discord-digest-bot
+git clone https://github.com/Tushar365/discord_digest.git
+cd discord_digest
 
 # Create virtual environment :
 python -m venv venv
@@ -26,8 +26,12 @@ streamlit run app.py
 
 or 
 
-# start it manually :
+# start the timer shedule manually :
+set the timer and zone manually : scheduler.py (change the code)
 python scheduler.py
+
+# check time :
+python scheduler.py --preview
 
 
 

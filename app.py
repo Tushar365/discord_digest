@@ -115,28 +115,24 @@ def show_message_viewer():
 def show_email_controls():
     st.title("Email Controls")
     
-    # Timezone Selection
-    timezones = ['Asia/Kolkata', 'America/Los_Angeles']
-    selected_timezone = st.selectbox(
-        "Select Timezone", 
-        timezones, 
-        index=0
-    )
+    # # Timezone Selection
+    # timezones = ['Asia/Kolkata', 'America/Los_Angeles']
+    # selected_timezone = st.selectbox(
+    #     "Select Timezone", 
+    #     timezones, 
+    #     index=0
+    # )
     
-    # Time Selection
-    current_time = st.time_input(
-        "Daily digest time",
-        datetime.strptime("19:00", "%H:%M").time()
-    )
+    # # Time Selection
+    # current_time = st.time_input(
+    #     "Daily digest time",
+    #     datetime.strptime("19:00", "%H:%M").time()
+    # )
     
     # Next Mail Time Preview
     if st.button("Preview Next Mail Time"):
         try:
-            next_email_info = get_next_email_time(
-                timezone=selected_timezone, 
-                hour=current_time.hour, 
-                minute=current_time.minute
-            )
+            next_email_info = get_next_email_time()
             st.success(f"Next email will be sent at: {next_email_info['next_email_time']}")
             st.info(f"Time until next email: {next_email_info['time_until_next_email']}")
             st.info(f"Timezone: {next_email_info['timezone']}")

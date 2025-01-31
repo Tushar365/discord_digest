@@ -15,7 +15,7 @@ def daily_job():
     except Exception as e:
         print(f"Error in daily job: {e}")
 
-def get_next_email_time(timezone='Asia/Kolkata', hour=22, minute=16): ## update the time and zone here
+def get_next_email_time(timezone='Asia/Kolkata', hour=22, minute=53): ## update the time and zone here
     # Validate and set timezone
     try:
         selected_tz = pytz.timezone(timezone)
@@ -64,7 +64,7 @@ def main():
     else:
         scheduler.add_job(
             daily_job, 
-            CronTrigger(hour=19, minute=00), ## update the time and zone here
+            CronTrigger(hour=22, minute=53), ## update the time and zone here
             id='daily_digest'
         )
 
