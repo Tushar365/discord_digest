@@ -29,19 +29,19 @@ EMAIL_TO=recipient_email
 ```python -m venv venv```
 
 **On mac/linux:**
-source venv/bin/activate
+```source venv/bin/activate```
 
 **On Windows:**
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 # Install dependencies :
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # start the bot and initiate database :
-python discord_bot.py
+```python discord_bot.py```
 
 # start the control pannel server to use UI:
-streamlit run app.py
+```streamlit run app.py```
 
 or 
 
@@ -49,10 +49,10 @@ or
 set the timer and zone manually :
 scheduler.py (change the code)
 then run :
-python scheduler.py
+```python scheduler.py```
 
 # check time :
-python scheduler.py --preview
+```python scheduler.py --preview```
 
 
 
