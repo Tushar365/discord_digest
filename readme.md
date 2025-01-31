@@ -17,7 +17,7 @@ OPENAI_KEY=your_openai_api_key
 EMAIL_USER=your_email
 EMAIL_PASSWORD=your_email_password
 EMAIL_TO=recipient_email
-
+```
 ## Installation
 
 1. **Clone the repository:**
