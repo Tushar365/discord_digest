@@ -1,7 +1,22 @@
-# Clone repository (use cmd):
-git clone https://github.com/Tushar365/discord_digest.git
-cd discord_digest
+# Discord Digest
 
+Discord Digest is a Python bot that summarizes your Discord server's conversations and delivers them to your email inbox.  It uses OpenAI for summarization and provides a Streamlit-based control panel for easy management.
+
+## Features
+
+* Summarizes conversations from specified Discord channels.
+* Delivers summaries via email at scheduled intervals.
+* Customizable summarization settings (coming soon).
+* Streamlit-based web UI for controlling the bot and viewing summaries.
+
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```cmd
+   git clone https://github.com/Tushar365/discord_digest.git
+   cd discord_digest'''
 # Create virtual environment :
 python -m venv venv
 On mac/linux: source venv/bin/activate  
