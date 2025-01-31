@@ -10,6 +10,7 @@ Discord Digest is a Python bot that summarizes your Discord server's conversatio
 * Streamlit-based web UI for controlling the bot and viewing summaries.
 
 # Create & Update .env :
+```
 DISCORD_TOKEN=your_discord_bot_token
 TARGET_CHANNEL_IDS=your_channel_ids
 OPENAI_KEY=your_openai_api_key
