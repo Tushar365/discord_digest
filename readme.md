@@ -51,7 +51,7 @@ scheduler.py (change the code)
 then run :
 ```python scheduler.py```
 
-# check time :
+# check next sheduled mail time :
 ```python scheduler.py --preview```
 
 
