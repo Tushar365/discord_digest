@@ -16,16 +16,16 @@ Discord Digest is a Python bot that summarizes your Discord server's conversatio
 
    ```cmd
    git clone https://github.com/Tushar365/discord_digest.git
-   cd discord_digest'''
+   cd discord_digest
 # Create virtual environment :
-'''python -m venv venv'''
+```python -m venv venv
 On mac/linux: 
-'''source venv/bin/activate''' 
+```source venv/bin/activate
 On Windows:
-'''venv\Scripts\activate'''
+```venv\Scripts\activate
 
 # Install dependencies :
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt
 
 # Create & Update .env :
 DISCORD_TOKEN=your_discord_bot_token
@@ -36,10 +36,10 @@ EMAIL_PASSWORD=your_email_password
 EMAIL_TO=recipient_email
 
 # start the bot and initiate database :
-'''python discord_bot.py'''
+```python discord_bot.py
 
 # start the control pannel server to use UI:
-'''streamlit run app.py'''
+```streamlit run app.py
 
 or 
 
@@ -47,10 +47,10 @@ or
 set the timer and zone manually :
 scheduler.py (change the code)
 then run :
-'''python scheduler.py'''
+```python scheduler.py
 
 # check time :
-'''python scheduler.py --preview'''
+```python scheduler.py --preview
 
 
 
