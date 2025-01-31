@@ -26,10 +26,10 @@ EMAIL_TO=recipient_email
    cd discord_digest
    
 2. **Create virtual environment :**
-```python -m venv venv
+```python -m venv venv```
 
 **On mac/linux:**
-```source venv/bin/activate
+source venv/bin/activate
 
 **On Windows:**
 venv\Scripts\activate
