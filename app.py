@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import pytz
 from summary_engine import generate_summary
-from scheduler import get_next_email_time
+from scheduler import DigestScheduler, get_next_email_time
 from email_sender import send_email
 import plotly.express as px
 import os
@@ -143,8 +143,6 @@ def show_email_controls():
     st.subheader("Generate Manual Digest")
     generate_and_send_digest()
     
-    if st.button("Update Schedule"):
-        st.success(f"Schedule updated to {current_time} in {selected_timezone}")
 
 # def show_settings():
 #     st.title("Settings")
